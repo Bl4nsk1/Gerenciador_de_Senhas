@@ -3,7 +3,7 @@ Feito para uso pessoal e para salvar senhas que não são tão importantes assim
 OBS: não aconselhavél salvar senhas muito IMPORTANTES.</p>
 Possível torná-lo um executável para Windows usando o PyInstaller.</p>
 Não precisa configurar nada previamente, basta rodar o código.</p></p>
-# ------Requisitos-------
+# -------Requisitos-------
 Python 3.x</p>
 Para torná-lo em um executável.</p>
 pip install pyinstaller</p>
