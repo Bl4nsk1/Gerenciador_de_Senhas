@@ -41,7 +41,6 @@ def manipulateDatabase(conn, sql):
     cur = conn.cursor()
     cur.execute(sql)
     conn.commit()
-
     return cur.fetchall()
 
 def login_admin(conn, password):
@@ -79,7 +78,7 @@ def register_admin(conn):
             VALUES ("{senha}")
            """
     manipulateDatabase(conn, sql)
-    return login_admin(conn)
+    return verifyPassword()
 
 def listPassword(conn):
     site = input("Digite o site: ")
