@@ -20,7 +20,7 @@ jobs:
     - name: Test Build Python Exe
       uses: eric2788/pyinstaller-build@master
       with:
-        main: main
+        main: gerenciador
         artifact: gerenciador
         use-dependencies: false
     - name: Upload Artifact
@@ -36,7 +36,7 @@ jobs:
       - name: Test Build Python Exe
         uses: eric2788/pyinstaller-build@master
         with:
-          main: main
+          main: gerenciador
           artifact: gerenciador
           use-dependencies: false
       - name: Upload Artifact
